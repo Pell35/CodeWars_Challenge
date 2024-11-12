@@ -53,3 +53,19 @@ function getGrade(score) {
 console.log(getGrade(96));
 console.log(getGrade(82));
 console.log(getGrade(56));
+
+//passingGrade
+function hasPassingGrade(score) {
+  let passing = true;
+ if(score <=59){
+   passing = false;
+ }else{
+   passing=true;
+ }
+ return passing;
+}
+
+
+console.log(hasPassingGrade(100));
+console.log(hasPassingGrade(53));
+console.log(hasPassingGrade(87));
