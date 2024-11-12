@@ -25,3 +25,4 @@ let newList = [];
 function arrayLoop(list1,list2){
 for (let i =0, )
 }
+
